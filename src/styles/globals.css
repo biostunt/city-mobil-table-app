@@ -6,3 +6,14 @@ body {
 * {
     box-sizing: border-box;
 }
+#app {
+    width: 100%;
+    height: 100%;
+}
+
+.block-description {
+    color: #707070;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+}
