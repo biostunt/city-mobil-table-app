@@ -8,7 +8,7 @@ export interface IVehicle {
     tarrifs: Array<IVehicleTarrif>;
 }
 
-export interface IResponce {
+export interface IResponse {
     cars: Array<IVehicle>;
     tariffs_list: Array<string>;
 }
