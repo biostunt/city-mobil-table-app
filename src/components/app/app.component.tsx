@@ -1,6 +1,7 @@
 import style from '../../styles/app.module.css';
 import Header from '../header';
 import Footer from '../footer';
+import Body from '../body';
 
 const App = () => (
     <div className={style.container}>
@@ -8,8 +9,7 @@ const App = () => (
             <Header/>
         </div>
         <div className={style.body}>
-            <div className={style.sidebar}>sidebar</div>
-            <div className={style.table}>table</div>
+            <Body/>
         </div>
         <div className={style.footer}>
             <Footer/>

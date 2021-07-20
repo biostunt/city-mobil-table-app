@@ -1,0 +1,17 @@
+.container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(10, 1fr);
+}
+
+.sidebar {
+    grid-row: 1 / 11;
+    grid-column: 1 / 3;
+}
+
+.table {
+    grid-row: 1 / 11;
+    grid-column: 3 / 11;
+}
