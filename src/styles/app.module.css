@@ -16,6 +16,9 @@
 }
 
 .footer {
-    grid-column: 1 / 9;
-    grid-row: 8 / 9;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100% / 8);
 }
