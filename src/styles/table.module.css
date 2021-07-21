@@ -54,6 +54,21 @@
     height: 40px;
     cursor:pointer;
     user-select: none;
+    font-weight: 500;
+}
+.header_column_image {
+    width: .75rem;
+    height: .75rem;
+    margin-left: .5rem;
+    filter: invert(51%) sepia(21%) saturate(278%) hue-rotate(183deg) brightness(97%) contrast(88%);
+}
+
+
+.table_element:hover {
+    background: rgba(240, 242, 244, 1);
+}
+.table_element_active {
+    background: rgba(240, 242, 244, 1);
 }
 
 .vehicle_name {
