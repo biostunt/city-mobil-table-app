@@ -21,7 +21,6 @@ export const indexArrayElements = (vehicles: Array<IVehicle>): Array<IVehicleWit
 export const pipeBySearch = (vehicles: Array<IVehicleWithIndex>, searchLine: string): Array<IVehicleWithIndex> => {
     searchLine = searchLine.toLocaleLowerCase();
     return vehicles.filter((veh, i) => {
-        if(i === 0) console.log(veh) 
         let isFit = false;
         let vehName: string = `${veh.mark} ${veh.model}`.toLocaleLowerCase();
         let years = Object.entries(veh.tariffs).map(([key, value]) => `${value.year}`);
