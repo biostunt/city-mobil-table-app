@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { IStoreState, storeActions } from '../../store';
 import style from '../../styles/table.module.css';
@@ -38,7 +37,7 @@ const Header = (props: HeaderProps) => {
                     {column}
                     {
                         activeColumnFixed === column ?
-                            <img className={style.header_column_image} alt={orderType} src={orderType == "asc" ? arrowUp : arrowDown} />
+                            <img className={style.header_column_image} alt={orderType} src={orderType === "asc" ? arrowUp : arrowDown} />
                             : ""
                     }
                 </th>
