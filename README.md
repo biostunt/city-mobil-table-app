@@ -4,6 +4,10 @@
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
+# Tехническое задание
+
+[здесь]https://www.figma.com/file/YAdrLPuxWOLtST1Avq9SpX/Test?node-id=19%3A27
+
 # Используемые инструменты:
 
 -   Typescript
