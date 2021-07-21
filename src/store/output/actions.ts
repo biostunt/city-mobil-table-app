@@ -1,10 +1,6 @@
 import TYPE from './types';
+import { IVehicle } from './state';
 
-export interface IVehicle {
-    mark: string;
-    model: string;
-    year: number;
-}
 
 export interface IOutputAction {
     type: string;

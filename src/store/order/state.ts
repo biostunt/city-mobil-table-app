@@ -1,6 +1,6 @@
 export const initialState = {
     orderBy: "",
-    orderType: ""
+    orderType: "",
 }
 
 export type OrderState = typeof initialState;
