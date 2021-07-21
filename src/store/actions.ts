@@ -1,6 +1,7 @@
 import { searchActions as search } from "./search"
-import {outputReducer as output} from './output'
+import { outputActions as output } from './output'
+import { orderActions as order } from "./order"
 
 export const storeActions = {
-    search, output
+    search, output, order
 }

@@ -1,0 +1,6 @@
+const TYPE = {
+    ON_ORDER_BY_CHANGED: 'ON_ORDER_BY_CHANGED',
+    ON_ORDER_TYPE_CHANGED: 'ON_ORDER_TYPE_CHANGED'
+}
+
+export default TYPE;
