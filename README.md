@@ -6,7 +6,7 @@
 
 # Tехническое задание
 
-[здесь]https://www.figma.com/file/YAdrLPuxWOLtST1Avq9SpX/Test?node-id=19%3A27
+[здесь](https://www.figma.com/file/YAdrLPuxWOLtST1Avq9SpX/Test?node-id=19%3A27)
 
 # Используемые инструменты:
 
