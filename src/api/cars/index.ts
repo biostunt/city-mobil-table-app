@@ -1,2 +1,2 @@
 export { getVehiclesInformation } from './actions'
-export type {IVehicleTarrif, IVehicle, IResponse} from './response'
+export type {IVehicleTariff, IVehicleTariffs, IVehicle, IResponse} from './response'
