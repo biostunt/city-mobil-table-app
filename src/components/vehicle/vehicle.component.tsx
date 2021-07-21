@@ -4,8 +4,8 @@ import style from '../../styles/vehicle.module.css';
 
 
 const outTemplates = {
-    EMPTY: 'Машина не выбрана. Для просмотра выберите машину, приведенную в списке',
-    FULL: 'Выбран автомобиль mark model year года выпуска'
+    EMPTY: 'Машина не выбрана. Для просмотра выберите машину, приведенную в списке.',
+    FULL: 'Выбран автомобиль mark model year года выпуска.'
 }
 
 const Vehicle = () => {
