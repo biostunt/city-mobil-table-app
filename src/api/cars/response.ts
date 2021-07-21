@@ -1,11 +1,15 @@
-export interface IVehicleTarrif {
+export interface IVehicleTariff {
     year: number;
+}
+
+export interface IVehicleTariffs {
+    [name: string] : IVehicleTariff
 }
 
 export interface IVehicle {
     mark: string;
     model: string;
-    tarrifs: Array<IVehicleTarrif>;
+    tariffs: IVehicleTariffs;
 }
 
 export interface IResponse {
